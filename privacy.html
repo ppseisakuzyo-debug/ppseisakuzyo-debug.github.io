@@ -32,8 +32,8 @@
       <p>p.p製作所は、ユーザーのデータを必要以上に集めないことを基本方針としています。</p>
       <dl class="policy-summary">
         <div><dt>事業者</dt><dd>p.p製作所</dd></div>
-        <div><dt>対象</dt><dd>Custom Calculator、その他の提供アプリ、公式サイト</dd></div>
-        <div><dt>最終更新日</dt><dd>2026年10月2日</dd></div>
+        <div><dt>対象</dt><dd>Custom Calculator、Media Memory Backup v3、VoxNote、公式サイト</dd></div>
+        <div><dt>最終更新日</dt><dd>2026年10月9日</dd></div>
       </dl>
     </section>
 
@@ -49,13 +49,15 @@
       </article>
 
       <article>
-        <h2>3. Media Memory Backup</h2>
-        <p>Media Memory Backupは、写真、動画、音声などのメディアファイルを、ユーザーが指定した保存先へコピーするアプリです。バックアップ処理は端末内で行われ、メディアファイルの内容をp.p製作所のサーバーへ送信することはありません。</p>
-        <ul>
-          <li>写真、動画、音声ファイルへのアクセスは、バックアップ機能のために使用します。</li>
-          <li>コピー先の選択には、Androidのストレージアクセス機能を使用します。</li>
-          <li>クラウド送信、広告目的の利用、第三者提供は行いません。</li>
-        </ul>
+        <h2>3. Media Memory Backup v3</h2>
+        <p>Media Memory Backup v3（パッケージ名: com.refushift.mmb.v3）は、端末内の写真・動画・音声を、ユーザーが指定したUSBメモリまたはSDカードへバックアップするAndroidアプリです。</p>
+        <p><strong>利用する情報と目的</strong><br>許可された写真・動画・音声、ファイル名、保存先、ファイルサイズ、SHA-256を、バックアップ、差分の判定、コピー結果の検証に利用します。対象メディアへのアクセスにはAndroidの権限、保存先の選択にはAndroidのストレージアクセス機能を使用します。</p>
+        <p><strong>実行の許可と通知</strong><br>バックアップはユーザーが実行を許可した後に行います。画面を離れても処理を続け、通知で許可のリクエスト、進捗、結果、中止操作を提供します。登録したメモリの再接続時も実行をリクエストし、ユーザーが許可した場合に開始します。</p>
+        <p><strong>送信と共有</strong><br>本アプリにはインターネット権限、広告、解析SDK、アプリ内アカウント機能がありません。ファイルや利用情報をp.p製作所のサーバーへ送信しません。バックアップは端末と選択した外部メモリの間で行われ、ユーザーが選んだ外部メモリへのコピーは実行の許可後に行います。クラウド送信や広告目的の利用は行いません。</p>
+        <p><strong>端末内の保存</strong><br>保存先の登録と設定、許可の状態、復旧用の記録、ファイル名・処理結果を含む実行ログをアプリ内に保存します。実行ログは直近30回まで保持します。外部メモリにはバックアップと、そのメモリを識別するランダムなIDのファイルを作成します。このIDはメモリの識別と再接続の確認に利用します。</p>
+        <p><strong>データの保護と元ファイルの削除</strong><br>コピー結果をSHA-256で検証します。元ファイルの削除は検証後、バックアップの実行許可とは別のAndroid確認画面で、ユーザーが許可した場合だけ行います。本アプリは外部メモリのコピーを暗号化しません。外部メモリを扱う他のアプリや人がファイルを読める場合があるため、ユーザー自身で外部メモリを適切に管理してください。</p>
+        <p><strong>保持と削除</strong><br>Androidの設定からアクセス権限を取り消せます。アプリのデータ消去またはアンインストールにより、設定とアプリ内の記録を削除できます。外部メモリのバックアップと識別ファイルは残ります。必要に応じてユーザー自身で削除してください。保存先の登録解除では、外部メモリのファイルは削除しません。</p>
+        <p lang="en">Media Memory Backup v3 (package: com.refushift.mmb.v3) backs up permitted photos, videos and audio to your selected USB memory or SD card after your approval. File names, destinations, sizes and SHA-256 hashes are used for backup and verification. Notifications request approval and show progress, results and a stop action, including when a registered memory reconnects. The app has no Internet permission, ads, analytics SDK or user accounts, and sends no files or usage information to developer servers. Settings, approval state, recovery records and logs containing file names and results stay in app storage; logs are kept for the latest 30 runs. Backups and a random memory identification file are stored on the external memory. Copies are verified with SHA-256. Deleting originals requires separate approval in an Android confirmation screen. External copies are not encrypted and may be read by people or apps with access to the memory. Clearing app data or uninstalling removes internal records, but external backups and identification files remain until you delete them. Removing a destination registration does not delete external files. Contact: <a class="inline-link" href="mailto:p.pseisakuzyo@gmail.com">p.pseisakuzyo@gmail.com</a>.</p>
       </article>
 
       <article>
